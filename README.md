@@ -1,50 +1,21 @@
-# Welcome to your Expo app 👋
+SpotPing
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+O objetivo deste aplicativo é implementar uma funcionalidade simples, onde o usuário possa cadastrar um ponto com um raio específico em um mapa. Assim, quando ele passar por essa área, receberá um alarme ou aviso sonoro (ou vibração). A motivação principal surgiu das vezes em que perdi o ponto de descida do ônibus. Com isso, ao cadastrar o destino, o aplicativo irá rastrear a localização em tempo real e, ao se aproximar do ponto configurado, emitirá uma notificação.
 
-## Get started
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
 
-   ```bash
-    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Funcionalidades
 
-## Get a fresh project
+Até o momento a funcionalidade principal será a de cadastramento de ponto de destino em mapa, que irá criar uma área e então ao passar por essa área o aplicativo irá notifica-lo. 
 
-When you're ready, run:
+## Tecnologias 
+Estou desenvolvendo o app através do React Native como base.
+Para o serviço de localização em tempo real, estou realizando a aplicação do react-location. 
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Lembrando que o app está em fase inicial de desenvolvimento e que todas as Tecnologias e abordagens podem ser alteradas
